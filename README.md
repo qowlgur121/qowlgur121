@@ -26,8 +26,6 @@
 
 ### 소개
 
-| | |
-|---|---|
-| 기술 | Java · Spring Boot · Python · FastAPI · PostgreSQL · Docker |
-| 학력 | 전북대학교 컴퓨터공학부 졸업 (2026.02) · 전공 평점 3.83 / 4.5 |
-| 자격증 | 정보처리기사 · SQLD · ADsP |
+- **기술** &nbsp;Java · Spring Boot · Python · FastAPI · PostgreSQL · Docker
+- **학력** &nbsp;전북대학교 컴퓨터공학부 졸업 (2026.02) · 전공 평점 3.83 / 4.5
+- **자격증** &nbsp;정보처리기사 · SQLD · ADsP
