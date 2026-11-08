@@ -1,7 +1,7 @@
 ## 배지혁, 신입 백엔드 개발자
 
-돈이 걸린 처리는 권한과 검증으로 막고, AI는 그 안에서만 일하게 합니다.
-혼자 운영한 온라인 판매의 주문 처리 서버를 설계해 하루 최대 1,378건을 처리했습니다. 결과를 모르는 주문은 재실행하지 않고 대조 후 확정하게 했고, AI 점검 에이전트에는 허용한 조치만 주었습니다.
+돈이 걸린 처리는 권한과 검증으로 막고 AI는 그 안에서만 일하게 합니다.
+혼자 운영한 온라인 판매의 주문 처리 서버를 설계해 하루 최대 1,378건을 처리했습니다. 결과를 모르는 주문은 재실행하지 않고 대조 후 확정하게 했고 AI 점검 에이전트에는 허용한 조치만 주었습니다.
 
 [포트폴리오](https://qowlgur121.github.io), [포트폴리오 PDF](https://qowlgur121.github.io/portfolio.pdf), [이력서 PDF](https://qowlgur121.github.io/resume.pdf), qowlgur121@gmail.com
 
@@ -22,7 +22,7 @@
 
 **[OpenContext](https://github.com/OpenContextAI/open-context), 사내 문서 AI 검색 MCP 서버** &nbsp;3인 팀, 2025.08 ~ 12
 - 회사 문서를 밖으로 보내지 않고 AI 코딩 도구가 검색해 쓰는 사내 설치형 서버. 제안, 기획과 설계를 맡음
-- 내 담당: 검색 엔진(BM25 + 로컬 임베딩 벡터 점수 결합, 0~1 정규화), AI가 목록을 먼저 보고 필요한 원문만 가져가는 2단계 조회 API, DB, 관리자 화면, 배포(`core/…/SearchService.java`, `ContentRetrievalService.java`). 문서 처리 파이프라인, MCP 어댑터는 팀원
+- 내 담당: 검색 엔진(BM25 + 로컬 임베딩 벡터 점수 결합, 0~1 정규화), AI가 목록을 먼저 보고 필요한 원문만 가져가는 2단계 조회 API, DB, 관리자 화면 배포(`core/…/SearchService.java`, `ContentRetrievalService.java`). 문서 처리 파이프라인, MCP 어댑터는 팀원
 - 2025 오픈소스 개발자대회 출품, 학부 작품경진대회 은상
 - `Java 21` `Spring Boot` `Elasticsearch` `Ollama` `PostgreSQL` `MCP`
 
