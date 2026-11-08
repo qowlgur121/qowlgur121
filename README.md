@@ -26,7 +26,7 @@
 - 2025 오픈소스 개발자대회 출품, 학부 작품경진대회 은상
 - `Java 21` `Spring Boot` `Elasticsearch` `Ollama` `PostgreSQL` `MCP`
 
-**현장실습, (주)텔로스** &nbsp;학교 현장실습, 2025.07 ~ 08
+**현장실습, (주)텔로스** &nbsp;학교 현장실습, 2025.07 (1개월)
 - 사내 직원 로그인, 권한, 좌석 관리와 출입 기록으로 근무 상태를 판정하는 웹 서비스 백엔드. 고칠 수 없는 외부 출입 단말 DB는 읽기 전용으로 연동, Docker로 회사 서버 배포
 - `Java` `Spring Boot` `JPA` `Spring Security` `JWT` `SQL Server` `Docker`
 
