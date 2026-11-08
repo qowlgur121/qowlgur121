@@ -22,15 +22,13 @@ AI를 실제 업무에 붙이고, 돈이 걸린 처리는 권한과 검증으로
 
 **[OpenContext](https://github.com/OpenContextAI/open-context) · 사내 문서 AI 검색 MCP 서버** &nbsp;3인 팀 · 2025.08 ~ 12
 - 회사 문서를 밖으로 보내지 않고 AI 코딩 도구가 검색해 쓰는 사내 설치형 서버. 제안·기획과 설계를 맡음
-- 내 담당: 검색 엔진(BM25 + 로컬 임베딩 벡터 점수 결합, 0~1 정규화), AI가 목록을 먼저 보고 필요한 원문만 가져가는 2단계 조회 API, DB, 관리자 화면, 배포 — 커밋 [b227bb6](https://github.com/OpenContextAI/open-context/commit/b227bb6) · [26be0ea](https://github.com/OpenContextAI/open-context/commit/26be0ea). 문서 처리 파이프라인·MCP 어댑터는 팀원
+- 내 담당: 검색 엔진(BM25 + 로컬 임베딩 벡터 점수 결합, 0~1 정규화), AI가 목록을 먼저 보고 필요한 원문만 가져가는 2단계 조회 API, DB, 관리자 화면, 배포(`core/…/SearchService.java`, `ContentRetrievalService.java`). 문서 처리 파이프라인·MCP 어댑터는 팀원
 - 2025 오픈소스 개발자대회 출품 · 학부 작품경진대회 은상
 - `Java 21` `Spring Boot` `Elasticsearch` `Ollama` `PostgreSQL` `MCP`
 
 **현장실습 · (주)텔로스** &nbsp;학교 현장실습 · 2025.07 ~ 08
 - 사내 직원 로그인·권한·좌석 관리와 출입 기록으로 근무 상태를 판정하는 웹 서비스 백엔드. 고칠 수 없는 외부 출입 단말 DB는 읽기 전용으로 연동, Docker로 회사 서버 배포
 - `Java` `Spring Boot` `JPA` `Spring Security` `JWT` `SQL Server` `Docker`
-
-주문 서버와 복지 챗봇 원본은 운영 서비스·기관 과제라 비공개입니다. 구조·판단·사고 기록은 포트폴리오에 있고, 면접에서 화면으로 보여드릴 수 있습니다.
 
 ### 소개
 
